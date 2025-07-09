@@ -13,8 +13,8 @@
       padding: 0;
     }
   </style>
-  <link rel="shortcut icon" href="https://cdn.statically.io/gh/shnb60F/wxminigame-cdn/main/TemplateData/favicon.ico" />
-  <link rel="stylesheet" href="https://cdn.statically.io/gh/shnb60F/wxminigame-cdn/main/TemplateData/style.css" />
+  <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/shnb60F/wxminigame-cdn/main/TemplateData/favicon.ico" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/shnb60F/wxminigame-cdn/main/TemplateData/style.css" />
 </head>
 
 <body>
@@ -66,13 +66,13 @@
       updateBannerVisibility();
     }
 
-    var buildUrl = "https://cdn.statically.io/gh/shnb60F/wxminigame-cdn/main/Build";
-    var loaderUrl = buildUrl + "/webgl.loader.js";
+    var buildUrl = "https://shnb60ftest.s3.bitiful.net/Build";
+    var loaderUrl = buildUrl + "/webgl.loader.js?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=HdtUipOjhb6FQxfHpvLfbT6z%2F20250709%2F%2Fs3%2Faws4_request&X-Amz-Date=20250709T024104Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=22254bcca4c06d9943f03a7c8137702aac6f82ed942704ef9246531e1de51ad4";
     var config = {
-      dataUrl: buildUrl + "/webgl.data",
-      frameworkUrl: buildUrl + "/webgl.framework.js",
-      codeUrl: buildUrl + "/webgl.wasm",
-      symbolsUrl: buildUrl + "/webgl.symbols.json",
+      dataUrl: buildUrl + "/webgl.data?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=HdtUipOjhb6FQxfHpvLfbT6z%2F20250709%2F%2Fs3%2Faws4_request&X-Amz-Date=20250709T024155Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=14365de4539c283abea77a810fb47db53f4a2ae8a2a73aedd1da2150dd17d958",
+      frameworkUrl: buildUrl + "/webgl.framework.js?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=HdtUipOjhb6FQxfHpvLfbT6z%2F20250709%2F%2Fs3%2Faws4_request&X-Amz-Date=20250709T024211Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=f2f17a6e55ee0b925a6773e678382fceb9d2c7838679e9666ee17274a3d30e0a",
+      codeUrl: buildUrl + "/webgl.wasm?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=HdtUipOjhb6FQxfHpvLfbT6z%2F20250709%2F%2Fs3%2Faws4_request&X-Amz-Date=20250709T024229Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=2852b261cb7ae50dd4829bb39fb892861cb5d407158b0835f907955b3e07b2ee",
+      symbolsUrl: buildUrl + "/webgl.symbols.json?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=HdtUipOjhb6FQxfHpvLfbT6z%2F20250709%2F%2Fs3%2Faws4_request&X-Amz-Date=20250709T024246Z&X-Amz-Expires=3600&X-Amz-SignedHeaders=host&x-id=GetObject&X-Amz-Signature=b9d429f3f60532d90ee5347511e082c7eec19f609a85563dbc8c192e76e9ef44",
       streamingAssetsUrl: "StreamingAssets",
       companyName: "DefaultCompany",
       productName: "WXGameTest",
@@ -587,7 +587,7 @@
       TextureConfig: {},
       SpriteAtlasConfig: {},
       DownloadedTextures: downloadedTextures,
-      AUDIO_PREFIX: 'https://cdn.statically.io/gh/shnb60F/wxminigame-cdn/main/',
+      AUDIO_PREFIX: 'https://cdn.jsdelivr.net/gh/shnb60F/wxminigame-cdn/main/',
     };
     window._ScaleRate = 1;
   </script>
